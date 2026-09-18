@@ -10,11 +10,12 @@
         <h1>Welcome to TechHub Computers</h1>   
       <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href=#Home>Home</a></li>
+                <li><a href=#About>About</a></li>
+                <li><a href="#Products">Products</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Blog">Blog</a></li>
+                <li><a href="#Contact">Contact</a></li>
             </ul>
         </nav>
     </header>    
@@ -45,6 +46,7 @@
 
     <!-- Products section -->
     <section id="Products">
+        <main>
         <h2>Our Products</h2>
         <p>Explore our wide range of high-quality computer products designed to meet your needs.</p>
         <h1>Products</h1>
@@ -68,7 +70,91 @@
                         <img src="images/hpomnibookultraflip.png" alt="HP Omnibook Ultra Flip 14t-fh000">
                     <p><b>Price: KES 199,999</b></p>
                 </div>
+                <div class="product-item3">
+                    <h2>Hp Elitebook 830 x360</h2>
+                    <p>Intel Core i5-1135G7
+                        16GB RAM 256 SSD
+                        13.3" FHD Touchscreen Display
+                        Intel Iris Xe Graphics</p>
+                        <img src="images/hpelitebookx360.png" alt="Hp Elitebook 830 x360">
+                    <p><b>Price: KES 43,999</b></p>
+                </div>
+                <div class="product-item4">
+                    <h2>Lenovo Ideapad Slim 3</h2>
+                    <p>AMD Ryzen 5-752OU
+                        8GB RAM 512 SSD
+                        15.6" FHD Display
+                        Intel Iris Xe Graphics</p>
+                        <img src="images/lenovoideapadslim3.png" alt="Lenovo Ideapad Slim 3">
+                    <p><b>Price: KES 74,999</b></p>
+                </div>
+                <div class="product-item5">
+                    <h2>Asus Vivobook 15 X1504VA-E81185W</h2>
+                    <p>13th gen Intel Core i5-1355U
+                        8GB RAM 512 SSD
+                        15.6" FHD Display
+                        Intel Iris Xe Graphics</p>
+                        <img src="images/asusvivobook15.png" alt="Asus Vivobook 15 X1504VA-E81185W">
+                    <p><b>Price: KES 69,999</b></p>
+                </div>
+            </div>
+        </main>
     </section>
 
-</body> 
+    <!-- Services section -->
+    <section id="Services">
+        <h2>Our Services</h2>
+    <p>At TechHub Computers, we offer a wide range of services to meet your technology needs. Our services include:</p>
+    <ul>
+        <li>Computer Repair and Maintenance</li>
+        <li>Custom PC Building</li>
+        <li>Software Installation and Troubleshooting</li>
+        <li>Network Setup and Support</li>
+        <li>Data Recovery and Backup Solutions</li>
+    </ul>
+    <p>Our team of experienced technicians is dedicated to providing high-quality services to ensure your technology runs smoothly. Whether you need assistance with hardware, software, or networking, we are here to help. Contact us today to learn more about our services and how we can assist you with your technology needs.</p>
+    </section>
+
+    <!-- Blog section -->
+    <section id="Blog">
+        <h2>Our Blog</h2>
+        <h3>how to choose the right computer</h3>
+    <p> The right laptop depends on your budget,
+    intended use, storage needs, and performance requirements.</p>
+    <h3>Tips for maintaining your computer</h3>
+    <p> Regularly clean your computer, update software, and run antivirus scans to keep your computer running smoothly.</p>
+    <h3>Why computer security is important</h3>
+    <p> Computer security is crucial in today's digital age to protect your data and privacy from cyber threats.</p>    
+    </section>
+
+    <!-- Contact section -->
+     <section id ="Contact">
+        <footer>
+        <h2>Contact Us</h2>
+         <p>If you have any questions or inquiries, please feel free to reach out to us using the contact form below:</p>
+
+    <!--Contact information-->
+    <h3>Contact Details</h3>
+    <p>Email: <a href="techhubcomputers@gmail.com">techhubcomputers@gmail.com</a></p>
+    <p><b>Phone:</b> +254 712 345 678</p>
+    <p><b>Address:</b> 123 Techhub Street, Nairobi, Kenya</p>
+
+    <h3>Contact Form</h3>
+      <form action="submit_contact.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+        <p>&copy; 2026 Techhub Computers. All rights reserved.</p>
+        </footer>
+
+</body>
 </html>      
